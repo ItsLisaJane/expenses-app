@@ -1,6 +1,23 @@
-run = "python3 app.py"
+run = "python expense.py"
+modules = ["python-3.11"]
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python3 app.py"]
+run = ["sh", "-c", "python expense.py"]
+
+[workflows]
+runButton = "Run Python App"
+
+[[workflows.workflow]]
+name = "Run Python App"
+author = 44338020
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python3 expense.py"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
