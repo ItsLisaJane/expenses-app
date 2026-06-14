@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.summary {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.summary li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.summary li:last-child {
+  border-bottom: none;
+}
+
+.summary p {
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
