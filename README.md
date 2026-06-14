@@ -1,4 +1,3 @@
-<img width="771" height="514" alt="Screenshot 2026-06-14 at 21 39 45" src="https://github.com/user-attachments/assets/ebba1de8-993f-4dab-a4c8-52eb284f5a20" />
 # expenses-app
 
 # Expense Tracker
